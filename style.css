@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: -5%;
+}
+
+.header__img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+.header__img img{
+    border-radius: 50px;
+}
+
+.header__menu {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.header__menu a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;    
+}
+ 
+.banner {
+    background-image: url(/img/desarrollo-web.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.banner__overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0 , 0.8)}
+
+
+
+.banner__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner__box h1 {
+    color: #fff;
+    font-size: 45px;
+}
+
+.banner__box p {
+    color: #fff;
+}
