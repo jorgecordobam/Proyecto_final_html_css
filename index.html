@@ -1,45 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto HTML y CSS</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto HTML y CSS</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <Header class="header">
+  <section class="banner">
+    <div class="banner__overlay">
+      <Header class="header">
         <div class="header__img">
-            <img src="img/IMG_20210108_151209.jpg" alt="">
+          <img src="./img/IMG_20210108_151209.jpg" alt="">
         </div>
         <div class="header__menu">
-            <a href="index.html">Inicio  </a>
-            <a href="sobre-mi.html">Sobre mi  </a>
-            <a href="contacto.html">Contacto  </a>
+          <a href="./index.html">Inicio  </a>
+          <a href="./contacto.html">Contacto  </a>
         </div>
-        
-    </Header>
-    <section class="banner">
-        <div class="banner__overlay">
-            <div class="banner__box">
-                <H1>Bienvenido a Nuova Digital</H1>
-                <p>Nuova digital es una agencia de desarrollo web experta en brindar soluciones a nuestos </p>
-                <a href="/contacto.html">Contacto</a>
-                <button type="button" class="button" href="/contacto.html">Contacto</button>
+      </Header>
+      <div class="banner__box">
+        <div class="banner__objects">
+          <H1>Bienvenido a Nuova Digital</H1>
+          <p>Nuova digital es una agencia de desarrollo web experta en brindar soluciones a nuestos </p>
+          <a href="./contacto.html">Contacto</a>
+        </div> 
+      </div>
+      </div>  
+  </section>
+  <section class="about">
+    <div class="about__write" >
+      <h2>Quienes somos</h2>
+      <p>Soy un desarrollador Web con 3 años de experiencia en wordpress 
+        y actualmente capacitandome con larnu para porder realizar desarrollo a la medida en lo cual estoy aprendiendo
+        lenguajes de programacion como HTML CSS y JavaScript y a utilizar varias librerias como jQuery y framewords 
+        como NodeJS y ReactJS adicionalmente aprendi hace unos años Python. 
+        <br>
+        Mis hobbys son jugar futbol, hacer cualquier tipo de desporte, me gustan mucho los deportes extremos.
+      </p>
+      <a href="./contacto.html">Contacto</a>
+    </div>
+    <div class="about__image">
+      <img src="./img/pexels-christina-morillo-1181244.jpg" alt="">
+    </div>
+  </section>
+  <section class="container">
+    <div class="container__box">
+      <img src="./img/image (4).png" alt="">
+      <h3>Eficacia</h3>
+    </div>
+    <div class="container__box">
+      <img src="./img/image (5).png" alt="">
+      <h3>Experiencia</h3>
+    </div>
+    <div class="container__box">
+      <img src="./img/image (6).png" alt="">
+      <h3>Compromiso</h3>
+    </div>
+  </section>
+  <section class="gallery"> 
+    <h3>Galería</h3>       
+    <div class="gallery__box">
+      <img src="./img/pexels-andrew-neel-3178744.jpg" alt="">
+      <img src="./img/pexels-antoni-shkraba-6207757.jpg" alt="">
+      <img src="./img/pexels-christina-morillo-1181244.jpg" alt="">
+      <img src="./img/pexels-christina-morillo-1181675.jpg" alt="">
+    </div>
+    <div class="gallery__box">
+      <img src="./img/pexels-lukas-574069.jpg" alt="">
+      <img src="./img/pexels-monoar-rahman-114907.jpg" alt="">
+      <img src="./img/pexels-sora-shimazaki-5926382.jpg" alt="">
+      <img src="./img/pexels-vlada-karpovich-4050291.jpg" alt="">
+    </div>
+  </section>
+  <footer>
+        <div class="footer__box">
+            <img src="./img/IMG_20210108_151209.jpg" alt="">
+            <div class="logos">
+                <a title="Facebook" href="https://www.facebook.com/jorge.cordobamontes/"><img src="./img/facebook.png" alt="Facebook"></a>
+                <a title="Instagram" href="https://www.instagram.com/jorge.cordobamontes/"><img src="./img/instagram.png" alt="Instagram"></a>
+                <a title="Whatsapp" href="https://wa.link/i5ak32"><img src="./img/whatsapp.png" alt="Whatsapp"></a> 
             </div>
         </div>
-        
-    </section>
-    <section>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-    </section>
-    <section>
-
-    </section>
+    <div class="footer__box">
+      <h3>Menú</h3>
+      <div class="footer__menu">
+        <a href="./index.html">Inicio  </a>
+        <a href="./sobre-mi.html">Sobre mi  </a>
+        <a href="./contacto.html">Contacto  </a>
+      </div>
+    </div>
+    <div class="footer__box">
+      <h3>Hola</h3>
+    </div>
+  </footer>
 </body>
 </html>
