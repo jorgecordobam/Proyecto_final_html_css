@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+:root {
+  font-family: Helvetica, sans-serif;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -213,73 +217,10 @@ footer h3 {
   font-size: 25px;
 }
 
-.footer__menu {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.footer__menu a {
-  text-decoration: none;
+footer p {
   color: #fff;
-  font-size: 22px;
+  font-size: 16px;
 }
-
-
-
-
-
-.header__aboutme {
-  background-image: url(./img/About.jpg);
-  background-size: contain;
-  height: 80vh;
-}
-
-.header__aboutme__orverlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0 , 0.8);
-  display: flex;
-}
-
-.header__aboutme__header {
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-}
-
-.header__img__aboutme img{
-  border-radius: 50px;
-}
-
-.header__img__aboutme {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  height: 10vh;
-}
-
-.header__img img{
-  border-radius: 50px;
-}
-
-
-
-.header__menu__aboutme{
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;    
-}
-
-.banner__aboutme {
-    
-}
-
-
-
-
 
 main {
   background-image: url(img/pexels-pixabay-39284.jpg) ; 
@@ -357,4 +298,93 @@ h4{
   color: #999;
 }
 
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+.footer__menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 750px) {
+  .banner__box {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+
+  .about__write {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .container {
+    background-color: #73C2FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+  }
+
+  .container__box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container__box img {
+    width: 100px;
+  }
+
+  .footer__box img {
+    width: 100px;
+    border-radius: 50px;
+  }
+
+  .logos img {
+    width: 30px;
+  }
+
+  .footer__menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  footer p {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .box__contact {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    gap: 10px;
+  }
+}
